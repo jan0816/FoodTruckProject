@@ -80,9 +80,10 @@ public class FoodTruckApp {
 						highestRatedFoodTruck = ftArray[i];
 					}
 				}
-				System.out.println("Highest rated: " + highestRated);
+				System.out.println("Highest rating: " + highestRated);
 				System.out.println("Best rated food truck: " + highestRatedFoodTruck.getName());
 			} else if (menu == 4) {
+				System.out.println("Thank you for your time. Goodbye foodie.");
 				break;
 			} else {
 				System.out.println("Please input only a number 1 through 4.");
